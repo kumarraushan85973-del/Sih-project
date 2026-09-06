@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FAF7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Result"
+            android:textColor="#1B5E20"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:id="@+id/imgResult"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_image_placeholder"
+            android:contentDescription="Crop scan result"/>
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="DISEASE DETECTED"
+            android:textColor="#D32F2F"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtDisease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Leaf Blight"
+            android:textColor="#1B1B1B"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="AI Confidence"
+            android:textColor="#6B7280"
+            android:textSize="15sp"/>
+
+        <ProgressBar
+            android:id="@+id/progressConfidence"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="8dp"
+            android:max="100"
+            android:progress="0"/>
+
+        <TextView
+            android:id="@+id/txtConfidence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="94.50%"
+            android:textColor="#2E7D32"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Recommendation"
+            android:textColor="#1B5E20"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtRecommendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Inspect affected leaves and take appropriate action."
+            android:textColor="#444444"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"/>
+
+        <Button
+            android:id="@+id/btnSaveReport"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#2E7D32"
+            android:text="Save Report"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btnScanAnother"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:text="Scan Another Crop"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

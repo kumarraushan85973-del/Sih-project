@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Agri Rakshak Drone</string>
+    <string name="app_title">🌱 AgriRakshak</string>
+    <string name="app_subtitle">Smart Crop Protection</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="scan_field">Scan Field</string>
+    <string name="drone_scan">Drone Scan</string>
+    <string name="field_map">Field Map</string>
+    <string name="scan_history">📋  Scan History</string>
+
+    <string name="scan_your_field">Scan Your Field</string>
+    <string name="capture_from_camera">📷 Capture from Camera</string>
+    <string name="upload_from_gallery">🖼 Upload from Gallery</string>
+
+    <string name="camera_capture_title">📷 Capture Crop Image</string>
+    <string name="camera_capture_subtitle">Take a clear photo of the crop leaf</string>
+    <string name="camera_capture_desc">Camera capture feature will appear here.</string>
+    <string name="captured_crop_image">Captured crop image</string>
+    <string name="crop_photo_placeholder">🌿\n\nYour crop photo will appear here</string>
+    <string name="capture_photo">📷  Capture Photo</string>
+    <string name="photo_captured">✓ Photo Captured</string>
+    <string name="retake">↻  Retake</string>
+
+    <string name="upload_gallery_title">🖼 Upload from Gallery</string>
+    <string name="upload_gallery_desc">Image upload feature will appear here.</string>
+    <string name="upload_crop_title">🖼 Upload Crop Image</string>
+    <string name="upload_crop_subtitle">Select a clear photo of your crop</string>
+    <string name="upload_crop_placeholder">🖼\n\nTap below to select a crop photo</string>
+    <string name="no_crop_image_selected">🌿\n\nNo crop image selected</string>
+    <string name="select_crop_image">🖼  Select Crop Image</string>
+    <string name="crop_image_selected">✓ Crop image selected</string>
+    <string name="change_image">Change Image</string>
+    <string name="remove_photo">🗑 Remove Photo</string>
+    <string name="remove">✕  Remove</string>
+    <string name="upload_scan_ai">🤖  Upload &amp; Scan</string>
+    <string name="no_image_selected">No image selected.</string>
+    <string name="select_image_first">Please select a crop image first.</string>
+    <string name="ai_upload_next_step">Image selected. AI upload will be connected next.</string>
+
+    <string name="greeting_farmer">Good Morning, Farmer 👋</string>
+    <string name="greeting_subtitle">Monitor your crops with AI-powered detection</string>
+    <string name="current_field">Current Field</string>
+    <string name="wheat_field_01">Wheat Field 01</string>
+    <string name="fields_monitored">Fields Monitored</string>
+    <string name="healthy_zones">Healthy Zones</string>
+    <string name="suspected_zones">Suspected Zones</string>
+    <string name="total_scans">Total Scans</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="detect_crop_disease">Detect crop disease using AI</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="leaf_blight">Leaf Blight</string>
+    <string name="leaf_blight_sub">Wheat Field 01 • Today</string>
+    <string name="home">Home</string>
+    <string name="scan">Scan</string>
+    <string name="drone">Drone</string>
+    <string name="map">Map</string>
+
+    <string name="capture_crop_image">Capture Crop Image</string>
+    <string name="capture">📷 Capture</string>
+    <string name="scan_with_ai">🤖  Scan with AI</string>
+
+    <string name="camera_perm_required">Camera permission is required to take crop photos.</string>
+    <string name="photo_capture_cancelled">Photo capture cancelled.</string>
+    <string name="capture_first">Please capture a crop image first.</string>
+    <string name="ai_scan_next_step">AI scanning will be connected in the next step.</string>
+    <string name="no_camera_app">No camera application found.</string>
+    <string name="unable_create_image">Unable to create image file.</string>
+    <string name="photo_captured_success">Crop photo captured successfully.</string>
+</resources>

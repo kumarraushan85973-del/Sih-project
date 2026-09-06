@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <!-- HEADER -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_capture_title"
+        android:textColor="@color/green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/camera_capture_subtitle"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+
+    <!-- IMAGE PREVIEW -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_image_placeholder">
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/captured_crop_image" />
+
+        <TextView
+            android:id="@+id/txtPlaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/crop_photo_placeholder"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+
+    <!-- CAPTURE BUTTON -->
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/capture_photo"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+
+    <!-- RETAKE BUTTON -->
+
+    <Button
+        android:id="@+id/btnRetake"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/retake"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+
+    <!-- AI BUTTON -->
+
+    <Button
+        android:id="@+id/btnScanAI"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/green_primary"
+        android:text="@string/scan_with_ai"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+</LinearLayout>

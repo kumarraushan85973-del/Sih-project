@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FAF7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <!-- HEADER -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🖼 Upload Crop Image"
+            android:textColor="#1B5E20"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Select a clear photo of your crop"
+            android:textColor="#6B7280"
+            android:textSize="14sp" />
+
+
+        <!-- IMAGE CARD -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginTop="22dp"
+            android:background="#E8F5E9">
+
+            <ImageView
+                android:id="@+id/imgPreview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="Selected crop image" />
+
+
+            <TextView
+                android:id="@+id/txtPlaceholder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="🌿\n\nNo crop image selected"
+                android:textColor="#6B7280"
+                android:textSize="16sp" />
+
+        </FrameLayout>
+
+
+        <!-- FILE NAME -->
+
+        <TextView
+            android:id="@+id/txtFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#2E7D32"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+        <!-- SELECT BUTTON -->
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="18dp"
+            android:text="🖼  Select Crop Image"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+
+        <!-- REMOVE -->
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="✕  Remove"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+
+        <!-- UPLOAD -->
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#2E7D32"
+            android:text="Upload &amp; Scan"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>
